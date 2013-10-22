@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6601D8C918169E1E00E4AE8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6601D8C818169E1E00E4AE8B /* UIKit.framework */; };
+		6601D8CB18169E1E00E4AE8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6601D8CA18169E1E00E4AE8B /* Foundation.framework */; };
+		6601D8CD18169E1E00E4AE8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6601D8CC18169E1E00E4AE8B /* CoreGraphics.framework */; };
+		6601D8D318169E1E00E4AE8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6601D8D118169E1E00E4AE8B /* InfoPlist.strings */; };
+		6601D8D518169E1E00E4AE8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6601D8D418169E1E00E4AE8B /* main.m */; };
+		6601D8D918169E1E00E4AE8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6601D8D818169E1E00E4AE8B /* AppDelegate.m */; };
+		6601D8DB18169E1F00E4AE8B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6601D8DA18169E1E00E4AE8B /* Default.png */; };
+		6601D8DD18169E1F00E4AE8B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6601D8DC18169E1F00E4AE8B /* Default@2x.png */; };
+		6601D8DF18169E1F00E4AE8B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6601D8DE18169E1F00E4AE8B /* Default-568h@2x.png */; };
+		6601D8E218169E1F00E4AE8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6601D8E118169E1F00E4AE8B /* ViewController.m */; };
+		6601D8E518169E1F00E4AE8B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6601D8E318169E1F00E4AE8B /* ViewController.xib */; };
+		6601D8EE1816A26C00E4AE8B /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6601D8ED1816A26C00E4AE8B /* Animal.m */; };
+		6601D8F51816A62300E4AE8B /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6601D8F41816A62300E4AE8B /* Cat.m */; };
+		6601D8F81816A63100E4AE8B /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6601D8F71816A63100E4AE8B /* Dog.m */; };
+		6601D8FB1816A64F00E4AE8B /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = 6601D8FA1816A64F00E4AE8B /* Fish.m */; };
+		6601D8FE1816A66300E4AE8B /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 6601D8FD1816A66300E4AE8B /* Bird.m */; };
+		6601D9011816AA5500E4AE8B /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 6601D9001816AA5500E4AE8B /* Tree.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6601D8C518169E1E00E4AE8B /* Animal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6601D8C818169E1E00E4AE8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6601D8CA18169E1E00E4AE8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6601D8CC18169E1E00E4AE8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6601D8D018169E1E00E4AE8B /* Animal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animal-Info.plist"; sourceTree = "<group>"; };
+		6601D8D218169E1E00E4AE8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6601D8D418169E1E00E4AE8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6601D8D618169E1E00E4AE8B /* Animal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal-Prefix.pch"; sourceTree = "<group>"; };
+		6601D8D718169E1E00E4AE8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6601D8D818169E1E00E4AE8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6601D8DA18169E1E00E4AE8B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6601D8DC18169E1F00E4AE8B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6601D8DE18169E1F00E4AE8B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6601D8E018169E1F00E4AE8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6601D8E118169E1F00E4AE8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6601D8E418169E1F00E4AE8B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6601D8EC1816A26C00E4AE8B /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		6601D8ED1816A26C00E4AE8B /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		6601D8F01816A43C00E4AE8B /* MakeAnimalThingking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakeAnimalThingking.h; sourceTree = "<group>"; };
+		6601D8F11816A45300E4AE8B /* MakeAnimalClimb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakeAnimalClimb.h; sourceTree = "<group>"; };
+		6601D8F21816A46800E4AE8B /* MakeAnimalFight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakeAnimalFight.h; sourceTree = "<group>"; };
+		6601D8F31816A62300E4AE8B /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		6601D8F41816A62300E4AE8B /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		6601D8F61816A63000E4AE8B /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		6601D8F71816A63100E4AE8B /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		6601D8F91816A64F00E4AE8B /* Fish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
+		6601D8FA1816A64F00E4AE8B /* Fish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
+		6601D8FC1816A66300E4AE8B /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		6601D8FD1816A66300E4AE8B /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
+		6601D8FF1816AA5400E4AE8B /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		6601D9001816AA5500E4AE8B /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		6601D9021816B29A00E4AE8B /* MakeAnimalSound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakeAnimalSound.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6601D8C218169E1E00E4AE8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6601D8C918169E1E00E4AE8B /* UIKit.framework in Frameworks */,
+				6601D8CB18169E1E00E4AE8B /* Foundation.framework in Frameworks */,
+				6601D8CD18169E1E00E4AE8B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6601D8BC18169E1E00E4AE8B = {
+			isa = PBXGroup;
+			children = (
+				6601D8CE18169E1E00E4AE8B /* Animal */,
+				6601D8C718169E1E00E4AE8B /* Frameworks */,
+				6601D8C618169E1E00E4AE8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6601D8C618169E1E00E4AE8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6601D8C518169E1E00E4AE8B /* Animal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6601D8C718169E1E00E4AE8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6601D8C818169E1E00E4AE8B /* UIKit.framework */,
+				6601D8CA18169E1E00E4AE8B /* Foundation.framework */,
+				6601D8CC18169E1E00E4AE8B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6601D8CE18169E1E00E4AE8B /* Animal */ = {
+			isa = PBXGroup;
+			children = (
+				6601D8EF1816A3FB00E4AE8B /* Protocols */,
+				6601D8EB1816A25C00E4AE8B /* ClassEntity */,
+				6601D8D718169E1E00E4AE8B /* AppDelegate.h */,
+				6601D8D818169E1E00E4AE8B /* AppDelegate.m */,
+				6601D8E018169E1F00E4AE8B /* ViewController.h */,
+				6601D8E118169E1F00E4AE8B /* ViewController.m */,
+				6601D8E318169E1F00E4AE8B /* ViewController.xib */,
+				6601D8CF18169E1E00E4AE8B /* Supporting Files */,
+			);
+			path = Animal;
+			sourceTree = "<group>";
+		};
+		6601D8CF18169E1E00E4AE8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6601D8D018169E1E00E4AE8B /* Animal-Info.plist */,
+				6601D8D118169E1E00E4AE8B /* InfoPlist.strings */,
+				6601D8D418169E1E00E4AE8B /* main.m */,
+				6601D8D618169E1E00E4AE8B /* Animal-Prefix.pch */,
+				6601D8DA18169E1E00E4AE8B /* Default.png */,
+				6601D8DC18169E1F00E4AE8B /* Default@2x.png */,
+				6601D8DE18169E1F00E4AE8B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6601D8EB1816A25C00E4AE8B /* ClassEntity */ = {
+			isa = PBXGroup;
+			children = (
+				6601D8EC1816A26C00E4AE8B /* Animal.h */,
+				6601D8ED1816A26C00E4AE8B /* Animal.m */,
+				6601D8F31816A62300E4AE8B /* Cat.h */,
+				6601D8F41816A62300E4AE8B /* Cat.m */,
+				6601D8F61816A63000E4AE8B /* Dog.h */,
+				6601D8F71816A63100E4AE8B /* Dog.m */,
+				6601D8F91816A64F00E4AE8B /* Fish.h */,
+				6601D8FA1816A64F00E4AE8B /* Fish.m */,
+				6601D8FC1816A66300E4AE8B /* Bird.h */,
+				6601D8FD1816A66300E4AE8B /* Bird.m */,
+				6601D8FF1816AA5400E4AE8B /* Tree.h */,
+				6601D9001816AA5500E4AE8B /* Tree.m */,
+			);
+			name = ClassEntity;
+			sourceTree = "<group>";
+		};
+		6601D8EF1816A3FB00E4AE8B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6601D8F01816A43C00E4AE8B /* MakeAnimalThingking.h */,
+				6601D8F11816A45300E4AE8B /* MakeAnimalClimb.h */,
+				6601D8F21816A46800E4AE8B /* MakeAnimalFight.h */,
+				6601D9021816B29A00E4AE8B /* MakeAnimalSound.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6601D8C418169E1E00E4AE8B /* Animal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6601D8E818169E1F00E4AE8B /* Build configuration list for PBXNativeTarget "Animal" */;
+			buildPhases = (
+				6601D8C118169E1E00E4AE8B /* Sources */,
+				6601D8C218169E1E00E4AE8B /* Frameworks */,
+				6601D8C318169E1E00E4AE8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animal;
+			productName = Animal;
+			productReference = 6601D8C518169E1E00E4AE8B /* Animal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6601D8BD18169E1E00E4AE8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = viettel;
+			};
+			buildConfigurationList = 6601D8C018169E1E00E4AE8B /* Build configuration list for PBXProject "Animal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6601D8BC18169E1E00E4AE8B;
+			productRefGroup = 6601D8C618169E1E00E4AE8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6601D8C418169E1E00E4AE8B /* Animal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6601D8C318169E1E00E4AE8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6601D8D318169E1E00E4AE8B /* InfoPlist.strings in Resources */,
+				6601D8DB18169E1F00E4AE8B /* Default.png in Resources */,
+				6601D8DD18169E1F00E4AE8B /* Default@2x.png in Resources */,
+				6601D8DF18169E1F00E4AE8B /* Default-568h@2x.png in Resources */,
+				6601D8E518169E1F00E4AE8B /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6601D8C118169E1E00E4AE8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6601D8D518169E1E00E4AE8B /* main.m in Sources */,
+				6601D8D918169E1E00E4AE8B /* AppDelegate.m in Sources */,
+				6601D8E218169E1F00E4AE8B /* ViewController.m in Sources */,
+				6601D8EE1816A26C00E4AE8B /* Animal.m in Sources */,
+				6601D8F51816A62300E4AE8B /* Cat.m in Sources */,
+				6601D8F81816A63100E4AE8B /* Dog.m in Sources */,
+				6601D8FB1816A64F00E4AE8B /* Fish.m in Sources */,
+				6601D8FE1816A66300E4AE8B /* Bird.m in Sources */,
+				6601D9011816AA5500E4AE8B /* Tree.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6601D8D118169E1E00E4AE8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6601D8D218169E1E00E4AE8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6601D8E318169E1F00E4AE8B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6601D8E418169E1F00E4AE8B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6601D8E618169E1F00E4AE8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6601D8E718169E1F00E4AE8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6601D8E918169E1F00E4AE8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animal/Animal-Prefix.pch";
+				INFOPLIST_FILE = "Animal/Animal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6601D8EA18169E1F00E4AE8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animal/Animal-Prefix.pch";
+				INFOPLIST_FILE = "Animal/Animal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6601D8C018169E1E00E4AE8B /* Build configuration list for PBXProject "Animal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6601D8E618169E1F00E4AE8B /* Debug */,
+				6601D8E718169E1F00E4AE8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6601D8E818169E1F00E4AE8B /* Build configuration list for PBXNativeTarget "Animal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6601D8E918169E1F00E4AE8B /* Debug */,
+				6601D8EA18169E1F00E4AE8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6601D8BD18169E1E00E4AE8B /* Project object */;
+}

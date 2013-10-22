@@ -1,0 +1,16 @@
+//
+//  Tree.h
+//  Animal
+//
+//  Created by linhnguyen on 10/10/13.
+//  Copyright (c) 2013 viettel. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface Tree : NSObject
+{
+    NSString *_name;
+}
+- (id) init: (NSString *)name;
+@end
